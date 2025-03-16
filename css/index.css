@@ -1,0 +1,599 @@
+:root {
+    --main-color: rgb(0, 120, 255);
+    --second-color:#CDE1F8;
+}
+.main-color{
+   background-color:#0078FF;
+}
+.main-color2{
+    color: #0078FF;
+}
+.second-color{
+    background-color:  #CDE1F8;;
+}
+body {
+    background-color: #F5F5F5;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-link {
+    color: white;
+
+}
+.bot .scroll{
+    bottom: 5%;
+    right: 1%;
+}
+
+.underline p::after{
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 5px;
+    bottom: -50%;
+    left: 50%;
+    
+    background-color: var(--main-color);
+}
+.navbar-nav .nav-link.active::after {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 2px;
+    bottom: 10%;
+    left: 10px;
+    background-color: white;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.line a::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    bottom: 10%;
+    left: 10px;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.line a:hover::after {
+    width: 80%;
+    color: white;
+}
+
+
+.header span::after {
+    content: '|';
+    animation: typing ease-out 15s infinite;
+}
+
+
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "|";
+    }
+
+    2% {
+        content: "D|";
+    }
+
+    3% {
+        content: "De|";
+    }
+
+    4% {
+        content: "Des|";
+    }
+
+    5% {
+        content: "Desi|";
+    }
+
+    6% {
+        content: "Desig|";
+    }
+
+    7% {
+        content: "Design|";
+    }
+
+    8% {
+        content: "Designe|";
+    }
+
+    9% {
+        content: "Designer|";
+    }
+
+    10% {
+        content: "Designer|";
+    }
+
+    11% {
+        content: "Designe|";
+    }
+
+    12% {
+        content: "Design|";
+    }
+
+    13% {
+        content: "Desig|";
+    }
+
+    14% {
+        content: "Desi|";
+    }
+
+    15% {
+        content: "Des|";
+    }
+
+    16% {
+        content: "De|";
+    }
+
+    17% {
+        content: "De|";
+    }
+
+    18% {
+        content: "Dev|";
+    }
+
+    19% {
+        content: "Deve|";
+    }
+
+    20% {
+        content: "Devel|";
+    }
+
+    21% {
+        content: "Develo|";
+    }
+
+    22% {
+        content: "Develop|";
+    }
+
+    23% {
+        content: "Develope|";
+    }
+
+    24% {
+        content: "Developer|";
+    }
+
+    25% {
+        content: "Developer|";
+    }
+
+    26% {
+        content: "Develope|";
+    }
+
+    27% {
+        content: "Develop|";
+    }
+
+    28% {
+        content: "Develo|";
+    }
+
+    29% {
+        content: "Devel|";
+    }
+
+    30% {
+        content: "Deve|";
+    }
+
+    31% {
+        content: "Dev|";
+    }
+
+    32% {
+        content: "De|";
+    }
+
+    33% {
+        content: "D|";
+    }
+
+    34% {
+        content: "|";
+    }
+
+    35% {
+        content: "|";
+    }
+
+    36% {
+        content: "|";
+    }
+
+    37% {
+        content: "F|";
+    }
+
+    38% {
+        content: "Fr|";
+    }
+
+    39% {
+        content: "Fre|";
+    }
+
+    40% {
+        content: "Free|";
+    }
+
+    41% {
+        content: "Freel|";
+    }
+
+    42% {
+        content: "Freela|";
+    }
+
+    43% {
+        content: "Freelan|";
+    }
+
+    44% {
+        content: "Freelanc|";
+    }
+
+    45% {
+        content: "Freelance|";
+    }
+
+    46% {
+        content: "Freelancer|";
+    }
+
+    47% {
+        content: "Freelancer|";
+    }
+
+    48% {
+        content: "Freelance|";
+    }
+
+    49% {
+        content: "Freelanc|";
+    }
+
+    50% {
+        content: "Freelan|";
+    }
+
+    51% {
+        content: "Freela|";
+    }
+
+    52% {
+        content: "Freel|";
+    }
+
+    53% {
+        content: "Free|";
+    }
+
+    54% {
+        content: "Fre|";
+    }
+
+    55% {
+        content: "Fr|";
+    }
+
+    56% {
+        content: "F|";
+    }
+
+    57% {
+        content: "|";
+    }
+
+    58% {
+        content: "|";
+    }
+
+    59% {
+        content: "|";
+    }
+
+    60% {
+        content: "P|";
+    }
+
+    61% {
+        content: "Ph|";
+    }
+
+    62% {
+        content: "Pho|";
+    }
+
+    63% {
+        content: "Phot|";
+    }
+
+    64% {
+        content: "Photo|";
+    }
+
+    65% {
+        content: "Photog|";
+    }
+
+    66% {
+        content: "Photogr|";
+    }
+
+    67% {
+        content: "Photogra|";
+    }
+
+    68% {
+        content: "Photograp|";
+    }
+
+    69% {
+        content: "Photograph|";
+    }
+
+    70% {
+        content: "Photographe|";
+    }
+
+    71% {
+        content: "Photographer|";
+    }
+
+    72% {
+        content: "Photographer|";
+    }
+
+    73% {
+        content: "Photographe|";
+    }
+
+    74% {
+        content: "Photograph|";
+    }
+
+    75% {
+        content: "Photograp|";
+    }
+
+    76% {
+        content: "Photogra|";
+    }
+
+    77% {
+        content: "Photogr|";
+    }
+
+    78% {
+        content: "Photog|";
+    }
+
+    79% {
+        content: "Photo|";
+    }
+
+    80% {
+        content: "Phot|";
+    }
+
+    81% {
+        content: "Pho|";
+    }
+
+    82% {
+        content: "Ph|";
+    }
+
+    83% {
+        content: "P|";
+    }
+
+    84% {
+        content: "|";
+    }
+
+    85% {
+        content: "|";
+    }
+
+    86% {
+        content: "|";
+    }
+
+    87% {
+        content: "|";
+    }
+
+    88% {
+        content: "|";
+    }
+
+    89% {
+        content: "|";
+    }
+
+    90% {
+        content: "|";
+    }
+
+
+}
+
+/* About section */
+
+.fixed_height{
+ height: 0.7rem;
+}
+.html11{
+    
+    width: 85%;
+}
+.java11{
+    width: 90%;
+}
+
+.aboutme-content .h5-line h5::after{
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 3px;
+    bottom: 10%;
+    left: 1px;
+    top: 40px;
+    background-color: var(--main-color);
+
+}
+/* services */
+.icons{
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+    transition: all 0.5s;
+
+}
+.service-content .inner:hover .icons{
+
+    border: 10px solid var(--second-color);
+    background-color: var(--main-color);
+}
+.counter .icons{
+    height: 70px;
+    width: 70px;
+    border: 10px solid var(--second-color);
+    border-radius: 50%;
+    
+}
+.counter{
+
+    background-image:linear-gradient(rgba(0, 120, 255, 0.7), rgba(0, 120, 255, 0.7)), url(./../images/post-3.jpg);
+    background-position: center;
+   
+    background-attachment: fixed;
+}
+.counter .row{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+/* portofolio */
+
+.click{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid var(--main-color) ;
+}
+
+.portofolio .inner img{
+transition: all 1s;
+
+}
+.portofolio .inner:hover img{
+transform: scale(1.3);
+
+}
+.people{
+    background-image:linear-gradient(rgba(0, 120, 255, 0.7), rgba(0, 120, 255, 0.7)), url(./../images/overlay-bg.jpg);
+    background-position: center;
+   
+    background-attachment: fixed;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white !important;
+}
+
+/* blog */
+
+.blog a{
+    color: black;
+    transition: all 0.5s;
+}
+.blog a:hover{
+  color: var(--main-color);
+}
+.pos{
+    right: 150px;
+    top: -35px;
+    
+}
+.pos h6{
+    font-size: 12px;
+}
+
+/* contact */
+
+.contact{
+    background-image:linear-gradient(rgba(0, 120, 255, 0.7), rgba(0, 120, 255, 0.7)), url(./../images/overlay-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact h5::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 5px;
+    bottom: -50%;
+    left: 0;
+    
+    background-color: var(--main-color);
+}
+
+
+.contact button{
+    background-color: var(--main-color);
+}
+.contact button:hover{
+    background-color: #3393FF;
+}
+
+.icons{
+    height: 20px;
+    width: 20px;
+    border: 4px solid var(--main-color);
+    border-radius: 50%;
+    transition: all 0.5s;
+
+}
+.contact .icons:hover{
+
+    border: 4px solid var(--second-color);
+    background-color: var(--main-color);
+    color: white;
+}
+.copyright{
+    background-color: #0062D3;
+}
